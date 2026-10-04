@@ -31,7 +31,7 @@ function ResumeUpload() {
   setLoading(true);
 
   const response = await axios.post(
-    "https://resume-analyzer-backend-k4ap.onrender.com/api/resume/upload",
+    `${import.meta.env.DEV ? "http://localhost:5000" : "https://resume-analyzer-backend-k4ap.onrender.com"}/api/resume/upload`,
     formData
   );
 

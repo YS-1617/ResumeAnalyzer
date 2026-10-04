@@ -77,7 +77,7 @@ ${resumeText}
           content: prompt,
         },
       ],
-      model: "llama-3.1-8b-instant",
+      model: "openai/gpt-oss-20b",
     });
 
     const analysis = chatCompletion.choices[0].message.content;
