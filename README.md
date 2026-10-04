@@ -6,7 +6,7 @@ An AI-powered full-stack web application that analyzes resumes using ATS scoring
 
 ## 📸 Live Demo
 
-🌐 Frontend: https://resume-analyzer-ys17.vercel.app  
+🌐 Frontend: https://resume-analyzer-xi-nine.vercel.app/ 
 ⚙️ Backend: https://resume-analyzer-backend-k4ap.onrender.com
 
 ---
